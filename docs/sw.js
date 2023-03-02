@@ -1,5 +1,5 @@
 const helloPwa = "hello-pwa";
-const assets = ["/assets"];
+const assets = ["/", "/index.html", "/assets"];
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
